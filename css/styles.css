@@ -1,0 +1,47 @@
+.page .frame {
+  display: flex;
+  justify-content: center;
+}
+.home-frame {
+  background-color: aquamarine;
+  max-width: 1000px;
+  min-height: 200px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.home-frame .inner-frame .paragraph {
+  max-width: 480px;
+  height: 250px;
+}
+.home-frame .inner-frame .image1 {
+  width: 480px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(../images/background/giant-angel-3840x2160-city-6k-18666.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.home-frame .inner-frame .image2 {
+  width: 480px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(../../images/background/6deecf474da31f041244e900544ca5be.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.home-frame .inner-frame .image3 {
+  width: 480px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(../../images/background/a1eSv.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
